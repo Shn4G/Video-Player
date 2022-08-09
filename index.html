@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>.::Luffy vs Kaido::.</title>
+
+</head>
+<body>
+    <div class="wrapper">
+      <div class="player">
+       <video id= video poster="images/Luffy.jpg" muted src="https://media.w3.org/2010/05/video/movie_90.mp4" width="720"></video>
+       <div class="player-overlay">
+         <div class="player-actions">
+          <h2 class="player-tittle">Capítulo 1000: ¡Luffy vs Kaido la batalla final!</h2>    
+         <button class="button" id="backward" area-label="Regresar 10s" title="Regresar 10s"></button>
+         <button class="button" id="play" area-label="Reproducir" title="Reproducir"></button>
+         <button class="button" hidden id="pause" area-label="Pausar" title="Pausar"></button>
+         <button class="button" id="forward" area-label="Adelantar 10s" title="Adelantar 10s"></button>
+       </div> 
+       <div class="player-progress">
+        <input id="progress" type="range" min="0" value="0" max="166.998" step="1">
+       </div> 
+       </div>         
+     </div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
