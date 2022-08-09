@@ -2,7 +2,7 @@
 
 body { 
 
-    background: #000000 url(/images/bg.gif);
+    background: #000000 url("/images/bg.gif");
     color: #008000;
     font-family: Arial, Helvetica, sans-serif;
     
